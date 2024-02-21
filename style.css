@@ -14,6 +14,7 @@ header {
   padding: 20px 0;
   background-color: #353333;
   z-index: -1;
+  width: 100%;
 }
 header .imgbox {
   width: 160px;
@@ -28,22 +29,34 @@ header nav a:hover {
 }
 
 #welcome {
+  text-align: center;
   background-image: url("Assets/header-bg.jpg");
   background-size: cover;
-  background-position: center center;
   width: 100%;
   height: 800px;
-  z-index: -1px;
 }
 #welcome .textbox {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-flow: column;
 }
 #welcome .textbox h1 {
-  font-size: 40px;
+  font-size: 42px;
   color: white;
 }
 #welcome .textbox h2 {
-  font-size: 70px;
+  font-weight: 700;
+  font-size: 95px;
   color: white;
-  margin: 20px 40px 40px;
+  margin: 30px 40px 40px;
+}
+#welcome .textbox .btn {
+  display: inline-block;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  background-color: #fdda2a;
+  padding: 15px 40px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
