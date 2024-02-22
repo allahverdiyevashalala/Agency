@@ -74,7 +74,8 @@ header nav a:hover {
   font-size: 20px;
   color: #777575;
   margin: 20px 0 65px;
-  font-family: serif;
+  font-style: italic;
+  font-family: math;
 }
 #services .box {
   display: flex;
